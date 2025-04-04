@@ -1,0 +1,721 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Header Styles */
+.stickOnScroll {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-vibha img {
+    max-height: 80px;
+    padding: 10px;
+}
+
+.support-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.vibha-support {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.vibha-support img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.vibha-support p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.background1 {
+    background-color: #f0f7ff;
+}
+
+.background2 {
+    background-color: #fff0f0;
+}
+
+.vibha-nav-btn button, 
+.vibha-login-btn button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+/* Navigation Styles */
+.navHeader {
+    background-color: #2c3e50;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    padding: 15px 20px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #e74c3c !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-menu {
+    background-color: #2c3e50;
+    border: none;
+}
+
+.dropdown-item {
+    color: white !important;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background-color: #e74c3c;
+    color: white !important;
+}
+
+.dropdown-submenu .dropdown-menu {
+    left: 100%;
+    top: 0;
+    margin-top: 0;
+}
+
+/* Carousel Styles */
+.carousel-item {
+    height: 500px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 30%;
+    text-align: left;
+    left: 10%;
+    right: auto;
+}
+
+.carousel-caption h5 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.carousel-caption button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Update List Styles */
+.update-list {
+    padding: 40px 0;
+}
+
+.card-demo {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    border: none;
+    padding: 0;
+}
+
+.dis1 {
+    display: flex;
+    padding: 20px;
+}
+
+.size1 img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.updateinfo {
+    flex: 1;
+}
+
+.updateinfo h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.updateinfo p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn1 {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Section Titles */
+.vibha-title {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.vibha-title h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2c3e50;
+    position: relative;
+    display: inline-block;
+}
+
+.vibha-title h1:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: #e74c3c;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Cards Styles */
+.national-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.national-card:hover {
+    transform: translateY(-10px);
+}
+
+.ellipse-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vibha-speak-info {
+    padding: 20px;
+}
+
+.vibha-speak-info .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.vibha-speak-info .card-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.vibha-speak-btn .btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* Video Section */
+.video-section {
+    padding: 40px 0;
+}
+
+.center-img {
+    max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.corner-1, .corner-2 {
+    position: absolute;
+    max-width: 150px;
+    z-index: -1;
+}
+
+.corner-1 {
+    top: 0;
+    right: 0;
+}
+
+.corner-2 {
+    bottom: 0;
+    left: 0;
+}
+
+/* About Section */
+.about-vibha-info {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Aims Section */
+.card-1 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-horizontal {
+    display: flex;
+    align-items: center;
+}
+
+.img-wrapper {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.card-image {
+    width: 40px;
+    height: 40px;
+}
+
+.cardtext {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Entities Section */
+.sif-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.card-image-entity, 
+.card-image-national {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-image-entity img, 
+.card-image-national img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sif-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.wg-box-content {
+    position: relative;
+}
+
+.wg-box-content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.wg-box-content:hover .wg-box-content-overlay {
+    opacity: 1;
+}
+
+.wg-box-content-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    padding: 20px;
+    color: white;
+}
+
+.wg-box-content:hover .wg-box-content-details {
+    opacity: 1;
+}
+
+.sif-title1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.wg-box-content-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.wg-social-icon a {
+    color: white;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+/* Gallery Section */
+.gallery-container {
+    padding: 40px 0;
+}
+
+.gallery-content {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gallery-content p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.gallery-img {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(231, 76, 60, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-img:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .text {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Social Section */
+.socialcard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.footer-list {
+    margin-bottom: 30px;
+}
+
+.footer-list h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list ul li {
+    margin-bottom: 10px;
+}
+
+.footer-list ul li a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-list ul li a:hover {
+    color: #e74c3c;
+}
+
+.footer-sublist {
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.footer-sublist li {
+    margin-bottom: 5px;
+}
+
+.footer-img img {
+    max-height: 80px;
+    margin-bottom: 15px;
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    margin: 0 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.footer-social a:hover {
+    background-color: #e74c3c;
+}
+
+.visiter-counter-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.visiter-counter-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ddd;
+}
+.ellipse-img {
+   
+    background-color: rgb(29, 20, 20);
+
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .carousel-caption h5 {
+        font-size: 24px;
+    }
+    
+    .carousel-caption p {
+        font-size: 16px;
+    }
+    
+    .dis1 {
+        flex-direction: column;
+    }
+    
+    .size1 img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 400px;
+    }
+    
+    .carousel-caption {
+        bottom: 20%;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 20px;
+    }
+    
+    .carousel-caption p {
+        display: none;
+    }
+    
+    .support-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .vibha-support {
+        margin-bottom: 10px;
+    }
+    
+    .footer-mobile {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 300px;
+    }
+    
+    .carousel-caption {
+        bottom: 10%;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 18px;
+    }
+    
+    .vibha-title h1 {
+        font-size: 24px;
+    }
+    
+    .footer-list {
+        text-align: center;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+}
+
+/* Animation Classes */
+.wow {
+    visibility: hidden;
+}
+
+/* Slick Slider Customization */
+.slick-dots li button:before {
+    color: #e74c3c;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #e74c3c;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: #e74c3c;
+}
+
+.celebration-cards{
+    height: 500px;
+    width: 100%;
+    
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+     
+ }
+.celebration-card{
+   height: 200px;
+   width: 230px;
+   
+   border-radius: 15px;
+   background-color: #881f1f;
+    
+}
+.celebration-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.card-image-container{
+    width: 100%;
+    height: 140%;
+    
+    border-radius: 10px;
+   
+}
+.card-content{
+    padding: 10px;
+    /* text-align: center; */
+    font-size: 13px ;
+    color: #1a1717;
+    font-weight: 500;
+}
